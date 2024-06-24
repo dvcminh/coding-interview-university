@@ -581,48 +581,48 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 ## Cấu trúc dữ liệu
 
 - ### Arrays
-    - [ ] Về Arrays:
+    - [x] Về Arrays:
     	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays - Mảng tùy biến (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
-        - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
-        - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
+    - [x] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
+        - [x] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
+        - [x] Tạo mảng mới với vùng nhớ được cấp phát sẵn
             - Có thể triển khai mảng số nguyên một cách nhanh chóng, nhưng không sử dụng các tính năng sẵn có
             - Bắt đầu với 16, hoặc số lớn hơn, với cấp số nhân của 2 - 16, 32, 64, 128
-        - [ ] size() - Số lượng của các thành phần trong mảng
-        - [ ] capacity() - Số lượng tối đa các phần tử mà mảng có thể lưu trữ
-        - [ ] is_empty() - Kiểm tra mảng rỗng
-        - [ ] at(index) - Trả về phần tử ở vị trí chỉ mục (index), hoặc lỗi nếu rơi ra ngoài chỉ mục
-        - [ ] push(item) Thêm vào một phần tử mới
-        - [ ] insert(index, item) - Thêm một phần tử mới tại vị trí của chỉ mục, điều chỉnh lại chỉ mục và đưa các phần tử còn lại dịch chuyển theo
-        - [ ] prepend(item) - Thêm tại vị trí chỉ mục 0, hay đầu tiên
-        - [ ] pop() - trả về phần tử cuối cùng
-        - [ ] delete(index) - Xóa phần tử tại chỉ mục, dịch chuyển lại các phần tử trong mảng
-        - [ ] remove(item) - Tìm theo giá trị của phần tử và xóa chỉ mục đang lưu trữ cho phần tử này (áp dụng với việc nhiều phần tử có cùng giá trị)
-        - [ ] find(item) - Tìm theo giá trị của phần tử và trả về chỉ mục đầu tiên tìm được, -1 nếu không tìm thấy
-        - [ ] resize(new_capacity) // private function
+        - [x] size() - Số lượng của các thành phần trong mảng
+        - [x] capacity() - Số lượng tối đa các phần tử mà mảng có thể lưu trữ
+        - [x] is_empty() - Kiểm tra mảng rỗng
+        - [x] at(index) - Trả về phần tử ở vị trí chỉ mục (index), hoặc lỗi nếu rơi ra ngoài chỉ mục
+        - [x] push(item) Thêm vào một phần tử mới
+        - [x] insert(index, item) - Thêm một phần tử mới tại vị trí của chỉ mục, điều chỉnh lại chỉ mục và đưa các phần tử còn lại dịch chuyển theo
+        - [x] prepend(item) - Thêm tại vị trí chỉ mục 0, hay đầu tiên
+        - [x] pop() - trả về phần tử cuối cùng
+        - [x] delete(index) - Xóa phần tử tại chỉ mục, dịch chuyển lại các phần tử trong mảng
+        - [x] remove(item) - Tìm theo giá trị của phần tử và xóa chỉ mục đang lưu trữ cho phần tử này (áp dụng với việc nhiều phần tử có cùng giá trị)
+        - [x] find(item) - Tìm theo giá trị của phần tử và trả về chỉ mục đầu tiên tìm được, -1 nếu không tìm thấy
+        - [x] resize(new_capacity) // private function
             - Khi tới giới hạn của mảng, tăng gấp đôi giá trị độ dài mảng để thay đổi kích thước
             - Khi xóa 1 thành phần, nếu kích thước hiện tại chỉ bằng 1/4 kích thước được cấp phát, thay đổi thành 1/2
-    - [ ] Thời gian thực thi
+    - [x] Thời gian thực thi
         - O(1) để thêm/xóa tại vị trí cuối (tính luôn cả cấp phát lại để có thêm không gian lưu trữ), đánh chỉ mục, hay cập nhật
         - O(n) để thêm/xóa tại bất cứ đâu
-    - [ ] Không gian
+    - [x] Không gian
         - Liên tục trong bộ nhớ, giúp cải thiện hiệu suất
         - Không gian cần thiết = (Kích cỡ của mảng, thường >= n)* kích thước của 1 phần tử, cho dù là 2n, vẫn xem như O(n)
 
 - ### Danh sách liên kết (Linked Lists)
-    - [ ] Miêu tả:
-    	- [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
+    - [x] Miêu tả:
+    	- [x] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+        - [x] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - Không cần xem toàn bộ video, chỉ phần cấu trúc Node và cấp phát vùng nhớ.
-    - [ ] Danh sách liên kết so sánh với Mảng:
+    - [x] Danh sách liên kết so sánh với Mảng:
         - [Core Linked Lists Vs Arrays - Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays - Trong thực tế, Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists - Tại sao bạn nên tránh danh sách liên kết(video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
@@ -630,21 +630,21 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         (Khi bạn chuyển một con trỏ vào trong 1 thân hàm khiến thay đổi địa chỉ mà con trỏ trỏ về)
         Trang này giúp bạn có cái nhìn khái quát về con trỏ trỏ tới con trỏ. Tôi không khuyến khích đọc lướt qua danh sách này. Đề tài này rất khó đọc và nắm bắt.
         - [Pointers to Pointers - Con trỏ trỏ tới con trỏ](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Cài đặt (Tôi đã thực hiện với con trỏ đuôi và không dùng con trỏ đuôi):
-        - [ ] size() - Trả về số lượng các phần tử trong danh sách
-        - [ ] empty() - Giá trị luận lý logic, true nếu rỗng
-        - [ ] value_at(index) - Trả về phần tử tại vị trí thứ n (danh sách bắt đầu từ 0)
-        - [ ] push_front(value) - Thêm phần tử mới vào đầu danh sách
-        - [ ] pop_front() - Xóa phần tử đầu tiên và trả về giá trị này
-        - [ ] push_back(value) - Thêm phần tử tại cuối danh sách
-        - [ ] pop_back() - Xóa phần tử cuối và trả về giá trị
-        - [ ] front() - Lấy giá trị của phần tử đầu tiền
-        - [ ] back() - Lấy giá trị của phần tử cuối cùng
-        - [ ] insert(index, value) - Thêm phần tử mới tại vị trí chỉ mục, phần tử hiện tại sẽ trỏ về phần tử mới tại vị trí chỉ mục này (A->B->C, thêm N tại vị trí B, A->D->B->C, A hiện giờ sẽ trỏ tới D, chỉ mục 1 sẽ trỏ tới D thay vì B)
-        - [ ] erase(index) - Xóa node tại vị trí chỉ mục
-        - [ ] value_n_from_end(n) - Trả về danh sách từ vị trí thứ n đến cuối danh sách
-        - [ ] reverse() - đảo ngược danh sách
-        - [ ] remove_value(value) - Xóa dữ liệu đầu tiên được tìm thấy khớp với giá trị được cho
+    - [x] Cài đặt (Tôi đã thực hiện với con trỏ đuôi và không dùng con trỏ đuôi):
+        - [x] size() - Trả về số lượng các phần tử trong danh sách
+        - [x] empty() - Giá trị luận lý logic, true nếu rỗng
+        - [x] value_at(index) - Trả về phần tử tại vị trí thứ n (danh sách bắt đầu từ 0)
+        - [x] push_front(value) - Thêm phần tử mới vào đầu danh sách
+        - [x] pop_front() - Xóa phần tử đầu tiên và trả về giá trị này
+        - [x] push_back(value) - Thêm phần tử tại cuối danh sách
+        - [x] pop_back() - Xóa phần tử cuối và trả về giá trị
+        - [x] front() - Lấy giá trị của phần tử đầu tiền
+        - [x] back() - Lấy giá trị của phần tử cuối cùng
+        - [x] insert(index, value) - Thêm phần tử mới tại vị trí chỉ mục, phần tử hiện tại sẽ trỏ về phần tử mới tại vị trí chỉ mục này (A->B->C, thêm N tại vị trí B, A->D->B->C, A hiệx giờ sẽ trỏ tới D, chỉ mục 1 sẽ trỏ tới D thay vì B)
+        - [x] erase(index) - Xóa node tại vị trí chỉ mục
+        - [x] value_n_from_end(n) - Trả về danh sách từ vị trí thứ n đến cuối danh sách
+        - [x] reverse() - đảo ngược danh sách
+        - [x] remove_value(value) - Xóa dữ liệu đầu tiên được tìm thấy khớp với giá trị được cho
     - [ ] Doubly-linked List
         - [Description - Miêu tả danh sách liên kết đôi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - Không cần phải cài đặt
