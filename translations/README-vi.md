@@ -650,24 +650,24 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         - Không cần phải cài đặt
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
+    - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [x] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+    - [x] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+    - [x] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
         - enqueue(value) - Thêm giá trị ở đuôi
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất (thông thường là dữ liệu đầu tiên trong danh sách)
         - empty()
-    - [ ] Sử dụng mảng cố định kích thước:
+    - [x] Sử dụng mảng cố định kích thước:
         - enqueue(value) - Thêm giá trị vào cuối mảng
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất
         - empty()
         - full()
-    - [ ] Chi phí:
+    - [x] Chi phí:
         - Không cài đặt đúng việc sử dụng danh sách liên kết khi enqueue tại đầu và dequeue tại đuôi sẽ có chi phí là O(n) bởi vì bạn cần con trỏ next tới giá trị cuối cùng, khiến việc phải chạy qua toàn danh sách mỗi lần dequeue
         - enqueue: O(1) (Không đáng kể, danh sách liên kết và mảng [probing])
         - dequeue: O(1) (danh sách liên kết và mảng)
