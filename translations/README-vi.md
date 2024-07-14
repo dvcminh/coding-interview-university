@@ -1044,25 +1044,25 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
             - [Đọc thêm](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - ### Mẫu thiết kế
-    - [ ] [Đọc nhanh về UML(Quick UML review) (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Học qua các mẫu sau:
-        - [ ] strategy
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
-        - [ ] proxy
-        - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
+    - [x] [Đọc nhanh về UML(Quick UML review) (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [x] Học qua các mẫu sau:
+        - [x] strategy
+        - [x] singleton
+        - [x] adapter
+        - [x] prototype
+        - [x] decorator
+        - [x] visitor
+        - [x] factory, abstract factory
+        - [x] facade
+        - [x] observer
+        - [x] proxy
+        - [x] delegate
+        - [x] command
+        - [x] state
+        - [x] memento
+        - [x] iterator
+        - [x] composite
+        - [x] flyweight
     - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Book: Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
         - Tôi biết có một cuốn sách kinh điển là "Design Patterns: Elements of Reusable Object-Oriented Software" nhưng cuốn Bắt đầu với thiết kế mẫu(Head First Design Patterns) là một lựa chọn tuyệt vời cho người mới bắt đầu với OO.
