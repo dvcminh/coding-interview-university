@@ -626,7 +626,7 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         - [Core Linked Lists Vs Arrays - Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays - Trong thực tế, Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists - Tại sao bạn nên tránh danh sách liên kết(video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Ghi chú: Bạn cần kiến thức về con trỏ trỏ về con trỏ:
+    - [x] Ghi chú: Bạn cần kiến thức về con trỏ trỏ về con trỏ:
         (Khi bạn chuyển một con trỏ vào trong 1 thân hàm khiến thay đổi địa chỉ mà con trỏ trỏ về)
         Trang này giúp bạn có cái nhìn khái quát về con trỏ trỏ tới con trỏ. Tôi không khuyến khích đọc lướt qua danh sách này. Đề tài này rất khó đọc và nắm bắt.
         - [Pointers to Pointers - Con trỏ trỏ tới con trỏ](https://www.eskimo.com/~scs/cclass/int/sx8.html)
@@ -711,7 +711,7 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         - Tìm kiếm nhị phân sử dụng đệ quy
 
 - ### Toán tử trên bit
-    - [ ] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-sheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
+    - [x] [Bits cheat sheet](/extras/cheat%20sheets/bits-cheat-sheet.pdf) - bạn nên thuộc lòng nhiều lũy thừa của 2 (từ 2^1 đến 2^16 và 2^32)
     - [ ] Hãy chuẩn bị một nền tảng tốt về các biến đổi bit với các toán tử: &, |, ^, ~, >>, <<
         - [ ] [words (thuật ngữ trong kiến trúc máy tính)](https://en.wikipedia.org/wiki/Word_(computer_architecture) )
         - [ ] Bài mở đầu:
